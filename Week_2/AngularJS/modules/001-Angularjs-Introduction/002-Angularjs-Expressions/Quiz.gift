@@ -1,0 +1,14 @@
+::Question 1:: Expressions allow us to define and render static, unchanging, variables in our HTML. {
+    F #Incorrect. Our variables used in expressions may be changed, and thus our expression will dynamically update. #Correct!
+}
+
+::Question 2:: Which of the following expressions are valid? Choose 3. {
+    ~%33%{{ 3 + 5 }} #Correct!
+    ~%33%{{ variable1 + variable2 }} #Correct!
+    ~%34%{{ object.property1 }} #Correct!
+    ~%-100%{{ if(value){return 'Hello World!} }} #Incorrect. AngularJS expressions may not evaluate loops, conditionals, or exceptions.
+}
+
+::Question 3:: We can use the ng-bind directive to insert the content of an expression into a HTML element. {
+    T #Incorrect. The ng-bind directive will in fact insert an expression into a HTML element. #Correct!
+}

@@ -1,0 +1,12 @@
+<div class="container">
+    <my-header></my-header>
+
+    <h2>ng-change example:</h2>
+    <input class="input" type="input" ng-model="textInput" ng-change="$ctrl.checkPassphrase(textInput)"/>
+    
+    
+    <div ng-if="$ctrl.showChild">
+       <main-comp></main-comp> 
+    </div>
+
+</div> 

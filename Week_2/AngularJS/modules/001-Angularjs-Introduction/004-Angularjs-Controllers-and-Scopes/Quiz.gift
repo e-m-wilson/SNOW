@@ -1,0 +1,14 @@
+::Question 1:: Scopes are the glue that hold the Model and View together. {
+    F #Incorrect. Scopes share resources between the View and Controller. #Correct!
+}
+
+::Question 2:: Which scenarios would produce a separate scope? Choose 2. {
+    ~%50%Defining multiple controllers. #Correct!
+    ~%50%Certain directives such as ng-repeat. #Correct!
+    ~%-100%The addition of a new form on the page. #Incorrect. Only multiple Controllers or certain directives will produce a new scope.
+    ~%-100%Changing the value of a variable with ng-model. #Incorrect. Only multiple Controllers or certain directives will produce a new scope.
+}
+
+::Question 3:: Controllers may be included within our app either inline or through an external file via a HTML script tag. {
+    T #Incorrect. The information in the statement is in fact correct. #Correct!
+}

@@ -1,0 +1,12 @@
+::Question 1:: The benefit of Multi Page Apps over Single Page Apps is that they can dynamically render content to the user without having to make a round trip to the server. This provides a fluid and 'native' experience to the user. {F #Those would be benefits of a Single Page Application. # Correct!}
+
+::Question 2:: What do we need to do to create a AngularJS application? Choose 2. {
+    ~Ask nicely. #Incorrect. Manners are nice but, really?  
+    ~%50%Make use of the ng-app directive. #Correct!
+    ~%50%Import the required JavaScript file via URL or NPM. #Correct!
+    ~Make use of the ng-new-app directive. # Incorrect. We use the ng-app directive.
+}
+
+::Question 3:: AngularJS and Angular are very similar and can be used alongside each other. {
+    F #These are two completely different frameworks that are not compatible. #Correct!
+}

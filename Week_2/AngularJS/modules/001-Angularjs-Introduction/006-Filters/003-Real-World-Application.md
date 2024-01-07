@@ -1,0 +1,3 @@
+# Filters : Real-World Application
+
+Given a set of data, Luisa has been tasked with organizing that data in a specific manner. The data includes the names and account balance for a set of individuals. The name of each individual should appear next to their account balance, which in turn should be formatted in a standard USD format. Luisa has also been tasked with creating a filter for the data. Whenever the user enters a value into a text input, that information should be used to filter the records shown on screen. Let's help our Luisa!

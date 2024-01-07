@@ -1,0 +1,21 @@
+::Question 1:: The only event directives available in the AngularJS framework are ng-change and ng-click. {
+    F #There are many more! Check the documentation! #Correct!
+}
+
+::Question 2:: Which keyword represents the JavaScript event object? {
+    =$event #Correct!
+    ~$eventObject #Incorrect.
+    ~$e #Incorrect. 
+    ~event #Incorrect. 
+}
+
+::Question 3:: Not every event directive has access to the $event object. {
+    T #The above statement is correct. Some directives, like ng-change, do not have access to $event. #Correct!
+}
+
+::Question 4:: Which is the correct syntax for calling a function from within a component with the ng-click directive? {
+    =ng-if="$ctrl.myFunc()" #Correct!
+    ~ng-if="myFunc()" #Incorrect. We need to reference the controller first, '$ctrl.myFunc()'. 
+    ~ng-if="myFunc" #Incorrect. We need to reference the controller first, '$ctrl.myFunc()'. 
+    ~ng-if="ctrl.myFunc()" #Incorrect. We need to reference the controller and function like so: '$ctrl.myFunc()'. 
+}

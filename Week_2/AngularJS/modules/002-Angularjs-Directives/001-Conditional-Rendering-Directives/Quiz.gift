@@ -1,0 +1,14 @@
+::Question 1:: Conditional rendering directives alter the behavior of your application by moving HTML content from one place to another. {
+    F #Conditional rendering directives alter the behavior of your application by rendering or removing content from your web pages. #Correct!
+}
+
+::Question 2:: Which ng-if expressions will evaluate to true? Choose 2. {
+    ~%50%ng-if="true" #Correct!
+    ~%50%ng-if="'hello'!==2" #Correct!
+    ~%-100%ng-if="false" #Incorrect. This evaluates to false. 
+    ~%-100%ng-if="34==34 && 3!==3" #Incorrect. This evaluates to false. 
+}
+
+::Question 3:: When using ng-switch, if there is no match for the expression then nothing will ever be rendered. {
+    F #Incorrect. If an ng-switch-default is specified, then that content will be rendered if the expression never has a match. #Correct!
+}

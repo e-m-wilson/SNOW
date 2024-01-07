@@ -1,0 +1,14 @@
+::Question 1:: Components are used to bundle up and containerize the different parts of our application. {
+    F #Modules are responsible for bundling up and containerizing parts of our application, not components. #Correct!
+}
+
+::Question 2:: Which function within the AngularJS framework will create a component definition? {
+    =.component() #Correct!
+    ~.module() #Incorrect. This creates a module. 
+    ~.createComponent() #Incorrect. This function does not exist. 
+    ~.createModule() #Incorrect. This function does not exist.
+}
+
+::Question 3:: The templateUrl property within the Component Definition Object is relative to the index.html file. {
+    T #The above statement is in fact correct. #Correct!
+}

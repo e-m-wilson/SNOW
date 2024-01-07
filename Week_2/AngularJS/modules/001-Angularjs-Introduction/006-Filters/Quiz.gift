@@ -1,0 +1,14 @@
+::Question 1:: Which of the following is the correct syntax for a filter? {
+    ={{ expression | filter }} #Correct!
+    ~{{ expression \ filter }} #Incorrect.
+    ~{{ expression : filter }} #Incorrect.
+    ~{{ expression [filter] }} #Incorrect.
+}
+
+::Question 2:: If we wish to use a filter, we must use one of the pre-built options from the AngularJS framework. {
+    F #Incorrect. We can make custom filters if needed. #Correct!
+}
+
+::Question 3:: If a filter takes arguments, they are separated by a semicolon. {
+    F #Incorrect. Arguments in filters are separated by colons, not semicolons. #Correct!
+}

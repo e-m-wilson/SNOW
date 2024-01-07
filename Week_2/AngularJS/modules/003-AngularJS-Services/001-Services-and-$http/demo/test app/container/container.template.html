@@ -1,0 +1,39 @@
+<div class="container">
+    <my-header></my-header>
+
+    <div class="section">
+        <p>Hello {{ $ctrl.username }}! This username was brought in from a service!</p>
+        <button ng-click="$ctrl.myFunc()">Click me!</button>
+
+    
+        <h2>Joke from http service:</h2>
+        <p>{{ $ctrl.joke }}</p>
+
+        <h2>message from factory service:</h2>
+        <p>{{ $ctrl.factoryServiceMessage }}</p>
+
+        <h2>message from method service:</h2>
+        <p>{{ $ctrl.methodServiceMessage }}</p>
+    </div>
+
+    <div class="section">
+        <h2>Challenge with Poke API</h2>
+        <label for="userInput">Search Pokemon:</label>
+        <input ng-model="$ctrl.input" type="text" id="userInput"/>
+        <button ng-click="$ctrl.pokemonQuery()">Search</button>
+
+        <div ng-if="$ctrl.pokemonImg">
+            <img ng-src="{{ $ctrl.pokemonImg }}"/>
+        </div>
+        
+        <h3>Pokemon Abilities:</h3>
+        <ul ng-repeat="ability in $ctrl.abilities">
+            <li>{{ ability.ability.name }}</li>
+        </ul>
+        <h3>Pokemon Moves:</h3>
+        <ul ng-repeat="move in $ctrl.moves">
+            <li>{{ move.move.name }}</li>
+        </ul>
+    </div>
+    
+</div> 

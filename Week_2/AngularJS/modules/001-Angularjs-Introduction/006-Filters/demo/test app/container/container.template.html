@@ -1,0 +1,52 @@
+<div class="container">
+    <my-header></my-header>
+
+    <div class="section">
+        <h2>Currency Filter:</h2>
+        <div>{{ $ctrl.currency }}</div>
+        <div>{{ $ctrl.currency | currency }}</div>
+        <div>{{ $ctrl.currency | currency:"INR₹" }}</div>
+        <div>{{ $ctrl.currency | currency:"INR₹":0 }}</div>
+    </div>
+
+    <div class="section">
+        <h2>Number Filter:</h2>
+        <div>{{ $ctrl.negativeInfinity | number }} {{ $ctrl.infinity | number }}</div>
+        <div>{{ $ctrl.number }}</div>
+        <div>{{ $ctrl.number | number }}</div>
+        <div>{{ $ctrl.number | number:0 }}</div>
+        <div>{{ $ctrl.number | number:1 }}</div>
+        <div>{{ $ctrl.number | number:2 }}</div>
+    </div>
+
+    <div class="section">
+        <h2>Date Filter:</h2>
+        <div>{{ $ctrl.date }}</div>
+        <div>{{ $ctrl.date | date:"short" }}</div>
+        <div>{{ $ctrl.date | date:"yyyy-MM-dd" }}</div>
+        <div>{{ $ctrl.date | date:"HH:mm:ss" }}</div>
+    </div>
+    
+    <div class="section">
+        <h2>Array Filter:</h2>
+        <label for="searchArray">Search and filter items in array:</label>
+        <input type="text" id="searchArray" ng-model="query"/>
+
+        <div ng-repeat="elem in $ctrl.myArray | filter:query">
+            <p>{{ elem.name }} Phone Number: {{ elem.number }}</p>
+        </div> 
+    </div>
+
+    <!-- This is the implementation of the real world application -->
+    <div class="section">
+        <h2>Real-World Challenge</h2>
+
+        <label for="searchPeople">Search and filter items in array:</label>
+        <input type="text" id="searchPeople" ng-model="q"/>
+
+        <div ng-repeat="elem in $ctrl.data | filter:q">
+            <p>{{ elem.name }} Account Balance: {{ elem.balance  | currency }}</p>
+        </div> 
+    </div>
+    
+</div> 

@@ -1,0 +1,14 @@
+::Question 1:: Which of these options is NOT a valid method to create a service? {
+    =.bootstrap() #Correct!
+    ~.service() #Incorrect. This is a valid method to create a service.
+    ~.provider() #Incorrect. This is a valid method to create a service.
+    ~.factory() #Incorrect. This is a valid method to create a service.
+}
+
+::Question 2:: Using the array syntax when using dependency injection is preferred. This ensures that code will not break if it is minified. {
+    T #Incorrect, the statement is true. #Correct!
+}
+
+::Question 3:: Services bundle up reusable code, they are just another way of accomplishing the same task as modules. {
+    F #Incorrect. A service is defined on a module and contains variables and functions. Modules do not define any functionality themselves, they simply containerize features that do. #Correct!
+}

@@ -1,0 +1,13 @@
+<div class="home container"> 
+
+    <label for="latitude">Enter Latitude:</label>
+    <input type="number" step="0.01" ng-model="$ctrl.lat" id="latitude"/>
+    <label for="longitude">Enter Longitude</label>
+    <input type="number" step="0.01" ng-model="$ctrl.lon" id="longitude"/>
+    <button ng-click="$ctrl.getWeather()">Get the current weather!</button>
+    <div ng-if="$ctrl.currentWeather.tempCurrent">
+        <div>The current temperature is: {{ $ctrl.currentWeather.tempCurrent }}&deg;F</div>
+        <div>Today there is a high of {{ $ctrl.currentWeather.tempHigh }}&deg;F</div>
+        <div>Today there is a low of {{ $ctrl.currentWeather.tempLow }}&deg;F</div>
+    </div>
+</div>

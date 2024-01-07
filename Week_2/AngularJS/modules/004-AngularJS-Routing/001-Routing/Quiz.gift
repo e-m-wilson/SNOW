@@ -1,0 +1,21 @@
+::Question 1:: Routing is the process of linking URL locations to specific services. {
+    F #Incorrect. Routing links URL locations to a specific view. #Correct!
+}
+
+::Question 2:: $routeProvider is available in the main AngularJS framework module. {
+    F #Incorrect. AngularJS routing is contained in a separate model, apart from the framework itself. #Correct!
+}
+
+::Question 3:: Which of the following are valid $routeProvider methods? Choose 2. {
+    ~%50%.otherwise() #Correct!
+    ~%50%.when() #Correct!
+    ~%-100%.after() #Incorrect. This is not a valid method of $routeProvider. 
+    ~%-100%.before() #Incorrect. This is not a valid method of $routeProvider. 
+}
+
+::Question 4:: Which of the following is the correct syntax for an anchor tag href attribute that takes advantage of AngularJS routing? {
+    ='#!/path' #Correct!
+    ~'!#/path' #Incorrect.
+    ~'/!#path' #Incorrect.
+    ~'/path' #Incorrect.
+}

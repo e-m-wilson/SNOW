@@ -1,0 +1,14 @@
+::Question 1:: Data binding is the process by which variables in the Controller are synced with the Model within the MVC architecture. {
+    F #Data binding syncs the View and Model. #Correct!
+}
+
+::Question 2:: What are the forms of data binding available in AngularJS? Choose 2. {
+    ~$50%One-way #Correct!
+    ~$50%Two-way #Correct!
+    ~$-100%Three-way #Incorrect. We have one and two-way data binding in AngularJS.
+    ~$-100%AngularJS doesn't use data binding. #Incorrect. We have one and two-way data binding in AngularJS.
+}
+
+::Question 3:: We can use one-way data binding with either expression syntax or the ng-bind directive. With two-way binding, we can use the ng-model directive on an HTML input element. {
+    T #Incorrect. This statement is true. #Correct!
+}
