@@ -1,0 +1,13 @@
+1. What is AngularJS?
+2. Please describe the difference between a Single Page Application (SPA) vs Multipage application (MPA).
+3. Please describe MVC (Model View Controller).
+4. What's the difference between AngularJS and Angular?
+5. What is a directive in AngularJS?
+6. Please explain expressions within AngularJS?
+7. What is data binding?
+8. What is the purpose of an AngularJS Controller?
+9. What is the component definition object?
+10. What are filters in AngularJS?
+11. How can we add filter arguments?
+12. Can we have more than one filter argument?
+13. 

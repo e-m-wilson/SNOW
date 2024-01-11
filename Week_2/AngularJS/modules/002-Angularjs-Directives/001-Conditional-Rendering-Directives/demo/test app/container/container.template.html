@@ -8,4 +8,18 @@
         <main-comp></main-comp>
     </div>
     
+    <h2>ng-if example:</h2>
+    <div ng-if="true"> Hello World! 1</div>
+    <div ng-if="3==='3'"> Hello World! 2</div>
+    <div ng-if="hello"> Hello World! 3</div>
+    <div ng-if="false"> Hello World! 4</div>
+    <div ng-if="$ctrl.isTrue"> Hello World! 5</div>
+
+    <h2>ng-switch example:</h2>
+        <div ng-switch="$ctrl.switchValue">
+            <div ng-switch-when="dog">"Woof!"</div>
+            <div ng-switch-when="cat">"Meow!"</div>
+            <div ng-switch-when="parrot">"Pretty Bird!"</div>
+            <div ng-switch-default>The expression didn't match anything!</div>
+        </div>
 </div>

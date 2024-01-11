@@ -47,7 +47,7 @@ HTML template:
             <div ng-switch-when="cat">"Meow!"</div>
             <div ng-switch-when="parrot">"Pretty Bird!"</div>
             <div ng-switch-default>The expression didn't match anything!</div>
-          </div>
+        </div>
     </div>
 </div>
 ```
