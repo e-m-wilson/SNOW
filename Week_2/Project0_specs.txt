@@ -1,0 +1,11 @@
+Associates must complete an AngularJS application for a fictional real estate company. 
+
+The main page should list homes available for sale and the user should be able to search for and filter the options based on the address of the property. 
+
+When users click on a property, the application should display further details about the property on a seperate page (via routing). This should include local weather information based on the address of the home. The weather data should be pulled from a free and public API. 
+
+Associates will need to make use of the following features to complete the above requirements:
+- Directives
+- Routing
+- The $http service
+- Components and modules

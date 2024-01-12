@@ -10,4 +10,13 @@
 10. What are filters in AngularJS?
 11. How can we add filter arguments?
 12. Can we have more than one filter argument?
-13. 
+13. What is deep linking?
+14. What is the purpose of routing in AngularJS?
+15. Please describe 'ng-if'.
+16. How may we render HTML code for each item in an array within our controller?
+17. How may we link a function in our controller with a user action in the markup of an AngularJS component?
+18. What are the types of services we may create in AngularJS?
+19. What is the difference between a service method and factory method type service?
+20. Please describe how to implement dependency injection into a component's controller that will NOT break code when minified. 
+21. Please describe how the .when() and .otherwise() methods work on the $routeProvider. 
+22. How can I link an anchor tag to a specific component via routing? 
