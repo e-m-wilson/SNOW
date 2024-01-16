@@ -1,1 +1,6 @@
-angular.module('myApp', ['container']);
+angular.module('myApp', [
+    'error',
+    'weather',
+    'properties',
+    'ngRoute'
+]);

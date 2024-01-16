@@ -2,15 +2,28 @@
 <html ng-app="myApp">
     <head>
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js" defer></script>
+        <script src="https://code.angularjs.org/1.8.2/angular-route.min.js" defer></script>
+        
         <script src="app.module.js" defer></script>
-        <script src="container/container.module.js" defer></script>
-        <script src="container/container.component.js" defer></script>
-        <script src="container/aboutUs/aboutUs.module.js" defer></script>
-        <script src="container/aboutUs/aboutUs.component.js" defer></script>
-        <script src="container/properties/properties.module.js" defer></script>
-        <script src="container/properties/properties.component.js" defer></script>
+        <script src="weather/weather.module.js" defer></script>
+        <script src="weather/weather.component.js" defer></script>
+        <script src="properties/properties.module.js" defer></script>
+        <script src="properties/properties.component.js" defer></script>
+        <script src="error/error.module.js" defer></script>
+        <script src="error/error.component.js" defer></script>
+        <script src="core/app.config.js" defer></script>
+        <script src="core/myFactoryService.service.js" defer></script>
     </head>
     <body>
-        <container></container>
+        <div id="header">
+            <h1>Company Name</h1>
+            <nav>
+                <ul>
+                    <li><a href="#!/properties">Properties</a></li>
+                    <li><a href="#!/weather">Weather</a></li>
+                </ul>
+            </nav>
+        </div>
+        <ng-view></ng-view>
     </body>
 </html>

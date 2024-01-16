@@ -1,0 +1,14 @@
+<div id="properties">
+
+    <input type="text" ng-model="query">
+
+   <div id="propertyList" ng-repeat="property in $ctrl.propertyList | filter:query">
+        <div class="property">{{ property.name }} Price: {{ property.price }}</div>
+   </div>
+
+
+   <button ng-click="$ctrl.getJoke()">Get Joke!</button>
+   <p>{{ $ctrl.joke }}</p>
+
+   {{ $ctrl.value }}
+</div>
