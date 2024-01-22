@@ -1,0 +1,12 @@
+1. What are the 5 stages of ITIL?
+2. What is ITIL?
+3. What is ServiceNow?
+4. What is ITSM?
+5. What is the purpose of Service Strategy in ITIL?
+6. What is the purpose of Service design in ITIL? ........ (for each stage)
+7. What is a ServiceNow instance?
+8. How can we disable a user's ability to login to ServiceNow?
+9. Please describe the differences in working incidents with classic lists vs. the service operation workspace.
+10. What are plugins?
+11. How can we test features on ServiceNow for specific users?
+12. 
