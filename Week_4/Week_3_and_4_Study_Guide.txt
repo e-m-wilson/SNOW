@@ -9,4 +9,22 @@
 9. Please describe the differences in working incidents with classic lists vs. the service operation workspace.
 10. What are plugins?
 11. How can we test features on ServiceNow for specific users?
-12. 
+12. Please describe how incident, problem, and change management are related to each other. 
+13. What is an incident?
+14. What is a problem?
+15. What is a change request?
+16. What is a configuration item, and how does it differ from an asset?
+17. Please describe how tables may be related in servicenow, and what is a target table vs source table?
+18. What is a base class?
+19. Whats the difference between a core class and a custom class?
+20. What is the schema map?
+21. Please describe the purpose of a dictionary override. 
+22. What is a reference qualifier?
+23. Describe the purpose of app engine studio. 
+24. How are assets and configuration items related?
+25. What is a workflow?
+26. What is a workflow transition?
+27. What is a workflow activity?
+28. How can we create branching logic within a workflow?
+29. Please describe the purpose of SLA management. 
+30. 
