@@ -1,0 +1,27 @@
+Project 1 - Individual Project
+The Service Request Management system provides an intuitive interface with predefined workflows for IT requests to be reliably submitted, routed, approved, monitored, and delivered with minimum human interference. Every individual developed a complex Service Catalog using Custom Table, including Catalog Clients scripts/Catalog UI policies, and complex Workflow.
+Requirements:
+- Custom Catalog Item Development:
+  - Develop a user-friendly custom catalog item with 20-25 fields to capture necessary information for IT requests.
+- Catalog Client Script:
+  - Implement a Catalog Client script to enhance the user experience by providing dynamic field interactions and validations.
+- Catalog UI Policy:
+  - Utilize Catalog UI policy to dynamically control and manage the visibility and behavior of catalog item fields based on user roles or conditions.
+- Complex Workflow Design:
+  - Design a complex workflow comprising at least four different types of activities (e.g., approval, task assignment, subflow execution) to facilitate efficient request handling.
+- Dynamic Notifications:
+  - Implement dynamic notifications throughout the workflow to enhance communication and keep stakeholders informed about request progress and status changes.
+- Dynamic Approval Processes:
+  - Incorporate dynamic approval processes to facilitate efficient decision-making based on request criteria, user roles, or other relevant factors.
+- Custom Tables:
+  - Create at least two custom tables to store additional data related to the catalog item, ensuring proper data management and integrity.
+- Seamless User Experience:
+  - Ensure logical and cohesive functionality in the catalog item to provide a seamless user experience, guiding users through the request submission and approval process efficiently.
+ Testing Scope:
+- Workflow functionality and approval process
+- Catalog UI presentation and behavior
+- Script execution and notifications
+- Data storage in custom tables
+- Verify UI policy configurations
+Showcase:
+Every individual will be given 20 minutes to showcase their instance and their data followed by 10 minutes of Q and A.
