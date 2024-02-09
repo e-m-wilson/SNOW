@@ -1,0 +1,32 @@
+Project 2 - Implement Fresh Applications and Modules from Scratch in ServiceNow
+The ServiceNow IT project includes creating an entirely new Application and Modules using the Application Engine Studio from scratch. It aims to establish a standard procedure for any customer in Single Tenant instances along with Notifications. This project also involves document preparation, such as a Functional Requirement Specification. It is a Blueprint that can be used in the future for any fresh ServiceNow instances by applying Update Sets. This project's completion requires in-depth knowledge of the System Dictionary, Notifications & Events, ACL, Roles, Server-Side (Business Rules, UI Actions, Script Include, Data Policy, etc.), and Client-Side scripting (Client Script and UI Policy), as well as Service Portal.
+Requirements:
+Platform Implementation:
+•	ACLs (Access Control Lists): Implement precise ACL configurations to ensure controlled data access, restricting unauthorized access based on user roles.
+•	Notifications: Strategically set up notifications throughout the application to enhance communication and keep stakeholders informed about crucial events and updates.
+•	Workflow: Develop a complex workflow with dynamic approvals to streamline request handling and decision-making processes efficiently.
+•	Service Portal Integration: Seamlessly integrate the application with Service Portal, providing users with an intuitive interface for accessing services and information.
+•	Catalog Item Creation: Design and implement a catalog item to facilitate the request process for various services, enhancing user experience and improving service request efficiency.
+•	Custom Report Creation: Develop custom reports tailored to different user roles, providing insights and analytics based on their specific requirements.
+User Roles:
+Define and implement 2-3 user roles, specifying their permissions and responsibilities within the application environment.
+Data Management:
+•	Custom Tables Creation: Create custom tables to store additional data specific to the application, ensuring effective data management and integrity. Additionally, develop various application modules to access records from these tables.
+•	Knowledge Articles Creation: Develop informative knowledge articles to empower end-users with additional information and guidance, enhancing their understanding of the application functionalities.
+ServiceNow Platform Utilization:
+Utilize various ServiceNow features, including System Dictionary, Notifications & Events, ACL, Roles, Server-Side (Business Rules, UI Actions, Script Include, Data Policy, etc.), and Client-Side scripting (Client Script and UI Policy). Ensure strict adherence to ServiceNow best practices throughout the implementation process.
+Testing Scope:
+User Role and Access Control Testing:
+•	Validate configured user roles and access restrictions.
+•	Verify unauthorized users cannot access restricted data or functions.
+Workflow Testing:
+•	Test all approval workflows with valid and invalid scenarios.
+•	Check workflow rule triggers and email notifications.
+Catalog Item Testing:
+•	Check catalog item request lifecycle end-to-end.
+•	Test for errors, data validation failures, cancellations, etc.
+Reporting and Analytics Testing:
+•	Verify configured reports fetch expected data.
+•	Validate drilling down to report details functions as expected.
+ Showcase:
+Each team will have 40 minutes to showcase their instance, highlighting the implemented features. This will be followed by a 10-minute Q&A session for addressing queries or concerns.
