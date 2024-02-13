@@ -23,5 +23,3 @@ Requirements:
 - Script execution and notifications
 - Data storage in custom tables
 - Verify UI policy configurations
-Showcase:
-Every individual will be given 20 minutes to showcase their instance and their data followed by 10 minutes of Q and A.
