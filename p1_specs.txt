@@ -14,7 +14,7 @@ Requirements:
 - Dynamic Approval Processes:
   - Incorporate dynamic approval processes to facilitate efficient decision-making based on request criteria, user roles, or other relevant factors.
 - Custom Tables:
-  - Create at least two custom tables to store additional data related to the catalog item, ensuring proper data management and integrity.
+  - Create at least one custom table to store additional data related to the catalog item, ensuring proper data management and integrity.
 - Seamless User Experience:
   - Ensure logical and cohesive functionality in the catalog item to provide a seamless user experience, guiding users through the request submission and approval process efficiently.
  Testing Scope:
