@@ -4,15 +4,15 @@ Requirements:
 Platform Implementation:
 •	ACLs (Access Control Lists): Implement precise ACL configurations to ensure controlled data access, restricting unauthorized access based on user roles.
 •	Notifications: Strategically set up notifications throughout the application to enhance communication and keep stakeholders informed about crucial events and updates.
-•	Workflow: Develop a complex workflow with dynamic approvals to streamline request handling and decision-making processes efficiently.
+•	Workflow/Flow: Develop a complex workflow/flow with dynamic approvals to streamline request handling and decision-making processes efficiently.
 •	Service Portal Integration: Seamlessly integrate the application with Service Portal, providing users with an intuitive interface for accessing services and information.
 •	Catalog Item Creation: Design and implement a catalog item to facilitate the request process for various services, enhancing user experience and improving service request efficiency.
 •	Custom Report Creation: Develop custom reports tailored to different user roles, providing insights and analytics based on their specific requirements.
 User Roles:
 Define and implement 2-3 user roles, specifying their permissions and responsibilities within the application environment.
 Data Management:
-•	Custom Tables Creation: Create custom tables to store additional data specific to the application, ensuring effective data management and integrity. Additionally, develop various application modules to access records from these tables.
-•	Knowledge Articles Creation: Develop informative knowledge articles to empower end-users with additional information and guidance, enhancing their understanding of the application functionalities.
+•	Custom Tables Creation: Create 2 custom tables to store additional data specific to the application, ensuring effective data management and integrity. Additionally, develop various application modules to access records from these tables. (With app engine studio)
+•	Knowledge Articles Creation: Develop 2 informative knowledge articles to empower end-users with additional information and guidance, enhancing their understanding of the application functionalities. Place these knowledge articles in a new knowledge base.
 ServiceNow Platform Utilization:
 Utilize various ServiceNow features, including System Dictionary, Notifications & Events, ACL, Roles, Server-Side (Business Rules, UI Actions, Script Include, Data Policy, etc.), and Client-Side scripting (Client Script and UI Policy). Ensure strict adherence to ServiceNow best practices throughout the implementation process.
 Testing Scope:
