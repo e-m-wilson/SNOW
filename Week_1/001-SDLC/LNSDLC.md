@@ -34,17 +34,17 @@
 
 [SDLC - Waterfall Model (tutorialspoint)](https://www.tutorialspoint.com/sdlc/sdlc_waterfall_model.htm)
 
-- <mark>Waterfall is rigid methodology that follows the SDLC steps strictly in order, never returning to a previous step</mark>
+- <mark>Waterfall is rigid methodology that follows the SDLC steps.</mark>
   - Like a natural waterfall, <mark>development using this methodology only flows in one direction</mark>
-  - e.g., once development has started, Waterfall practitioners accept no new requirements from the client
+  - e.g., once development has started, it is costly and time consuming to go back to a previous step. Every step of the way must be signed off by multiple parties.
 - Benefits
+  - Practical for healthcare and government organizations that require a lot of documentation and compliance
   - <mark>Waterfall does not require any specific procedural knowledge</mark> - developers simply proceed from one step to the next
   - <mark>There’s a clear barrier between each step in the development, so it’s easy for developers to keep track of where they are in the project</mark>
     - e.g., when we’re moving from development to testing, we’ll have the full set of features that need to be tested, so we won’t have to worry about any new features popping up that need testing
   - <mark>Because we gather all requirements at the beginning of the project and finish designing before moving into development, we have an idea of what will look like before we begin developing it</mark>
 - Drawbacks
-  - <mark>Waterfall doesn’t involve the client between the gathering of requirements and the release of the product - this can make it difficult to ensure that the product being developed is what client wants</mark>
-  - If we’re adhering to true Waterfall principles, <mark>it’s difficult to make changes because we can’t return to previous steps</mark>
+  - If we’re adhering to Waterfall principles, it’s difficult and costly to return to previous steps
   - <mark>When following Waterfall, developers don’t test until development has finished, meaning that a bug/problem that may have existed for months won’t be found until the entire project is entering the testing step</mark>
  
 ## Agile Methodology
@@ -201,8 +201,3 @@ Openness, so that developers are open with each other about any challenges or di
   - Assigning story points and time estimates accurately is something takes practice
     - We need experience to gain a solid understanding of story difficulty, so we shouldn’t be discouraged if our initial attempts aren’t completely accurate
     - Even though our estimates may not be perfect, they’ll still be valuable for us because they’ll give us a better idea of which tasks and requirements have certain difficulties, so that we’ll able to plan future sprints
- 
-## Beneficial Waterfall Situations
-
-- Waterfall is still used situations that have a strict deadline for a release date and strict budgetary constraints
-  - e.g. government agencies/departments that are under pressure from legislators to stick to an allocated budget and fulfill requests within a set time frame
