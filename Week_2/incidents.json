@@ -1,0 +1,294 @@
+[
+  {
+    "incident_id": "INC-741085",
+    "title": "Laptop hardware failure",
+    "status": "Closed",
+    "priority": "Medium",
+    "severity": "3 - Low",
+    "category": "Hardware",
+    "subcategory": "Workstation",
+    "description": "User Jane Doe reported her laptop screen is not turning on. Attempts to reset the display connection were unsuccessful.",
+    "impact": "User unable to work. Temporary loaner provided.",
+    "created_at": "2025-09-25T09:15:00Z",
+    "updated_at": "2025-09-25T13:00:00Z",
+    "closed_at": "2025-09-25T13:00:00Z",
+    "assigned_to": {
+      "user_id": "U-24680",
+      "name": "David Miller",
+      "team": "Field Services"
+    },
+    "reporter": {
+      "user_id": "U-11223",
+      "name": "Jane Doe",
+      "email": "jane.doe@example.com"
+    },
+    "closure_notes": "Replaced user's laptop with a new one. Data transferred and old device sent for repair.",
+    "related_assets": [
+      {
+        "asset_id": "AST-1357",
+        "name": "Jane Doe Laptop"
+      }
+    ],
+    "timeline": [
+      {
+        "timestamp": "2025-09-25T09:15:00Z",
+        "event": "New incident created by end-user via service portal.",
+        "user": "Jane Doe"
+      },
+      {
+        "timestamp": "2025-09-25T10:00:00Z",
+        "event": "David Miller dispatched to replace faulty hardware.",
+        "user": "David Miller"
+      },
+      {
+        "timestamp": "2025-09-25T13:00:00Z",
+        "event": "Incident closed. Resolution notes added.",
+        "user": "David Miller"
+      }
+    ]
+  },
+  {
+    "incident_id": "INC-602934",
+    "title": "Email service outage",
+    "status": "Resolved",
+    "priority": "Critical",
+    "severity": "1 - Critical",
+    "category": "Software",
+    "subcategory": "Email",
+    "description": "Widespread email service outage impacting all North American employees.",
+    "impact": "Company-wide communication disruption. High business impact.",
+    "created_at": "2025-09-27T08:00:00Z",
+    "updated_at": "2025-09-27T10:15:00Z",
+    "resolved_at": "2025-09-27T10:15:00Z",
+    "assigned_to": {
+      "user_id": "U-88776",
+      "name": "Maria Rodriguez",
+      "team": "Network Operations"
+    },
+    "reporter": {
+      "user_id": "U-11224",
+      "name": "IT Helpdesk",
+      "email": "helpdesk@example.com"
+    },
+    "resolution_notes": "An issue with the mail server's routing table was identified and corrected. Service has been restored.",
+    "related_assets": [
+      {
+        "asset_id": "SRV-9013",
+        "name": "mail-router-05"
+      },
+      {
+        "asset_id": "SRV-9014",
+        "name": "mail-server-cluster"
+      }
+    ],
+    "timeline": [
+      {
+        "timestamp": "2025-09-27T08:00:00Z",
+        "event": "Incident created following multiple reports from users.",
+        "user": "system"
+      },
+      {
+        "timestamp": "2025-09-27T08:30:00Z",
+        "event": "Maria Rodriguez is leading the incident response.",
+        "user": "Maria Rodriguez"
+      },
+      {
+        "timestamp": "2025-09-27T10:15:00Z",
+        "event": "Email services are now operational. Incident marked as resolved.",
+        "user": "Maria Rodriguez"
+      }
+    ]
+  },
+  {
+    "incident_id": "INC-74108222",
+    "title": "Laptop hardware failure",
+    "status": "Closed",
+    "priority": "Medium",
+    "severity": "3 - Low",
+    "category": "Hardware",
+    "subcategory": "Workstation",
+    "description": "User Jane Doe reported her laptop screen is not turning on. Attempts to reset the display connection were unsuccessful.",
+    "impact": "User unable to work. Temporary loaner provided.",
+    "created_at": "2025-09-25T09:15:00Z",
+    "updated_at": "2025-09-25T13:00:00Z",
+    "closed_at": "2025-09-25T13:00:00Z",
+    "assigned_to": {
+      "user_id": "U-24680",
+      "name": "David Miller",
+      "team": "Field Services"
+    },
+    "reporter": {
+      "user_id": "U-11223",
+      "name": "Jane Doe",
+      "email": "jane.doe@example.com"
+    },
+    "closure_notes": "Replaced user's laptop with a new one. Data transferred and old device sent for repair.",
+    "related_assets": [
+      {
+        "asset_id": "AST-1357",
+        "name": "Jane Doe Laptop"
+      }
+    ],
+    "timeline": [
+      {
+        "timestamp": "2025-09-25T09:15:00Z",
+        "event": "New incident created by end-user via service portal.",
+        "user": "Jane Doe"
+      },
+      {
+        "timestamp": "2025-09-25T10:00:00Z",
+        "event": "David Miller dispatched to replace faulty hardware.",
+        "user": "David Miller"
+      },
+      {
+        "timestamp": "2025-09-25T13:00:00Z",
+        "event": "Incident closed. Resolution notes added.",
+        "user": "David Miller"
+      }
+    ]
+  },
+  {
+    "incident_id": "INC-7410852221111",
+    "title": "Laptop hardware failure",
+    "status": "Closed",
+    "priority": "Medium",
+    "severity": "3 - Low",
+    "category": "Hardware",
+    "subcategory": "Workstation",
+    "description": "User Jane Doe reported her laptop screen is not turning on. Attempts to reset the display connection were unsuccessful.",
+    "impact": "User unable to work. Temporary loaner provided.",
+    "created_at": "2025-09-25T09:15:00Z",
+    "updated_at": "2025-09-25T13:00:00Z",
+    "closed_at": "2025-09-25T13:00:00Z",
+    "assigned_to": {
+      "user_id": "U-24680",
+      "name": "David Miller",
+      "team": "Field Services"
+    },
+    "reporter": {
+      "user_id": "U-11223",
+      "name": "Jane Doe",
+      "email": "jane.doe@example.com"
+    },
+    "closure_notes": "Replaced user's laptop with a new one. Data transferred and old device sent for repair.",
+    "related_assets": [
+      {
+        "asset_id": "AST-1357",
+        "name": "Jane Doe Laptop"
+      }
+    ],
+    "timeline": [
+      {
+        "timestamp": "2025-09-25T09:15:00Z",
+        "event": "New incident created by end-user via service portal.",
+        "user": "Jane Doe"
+      },
+      {
+        "timestamp": "2025-09-25T10:00:00Z",
+        "event": "David Miller dispatched to replace faulty hardware.",
+        "user": "David Miller"
+      },
+      {
+        "timestamp": "2025-09-25T13:00:00Z",
+        "event": "Incident closed. Resolution notes added.",
+        "user": "David Miller"
+      }
+    ]
+  },
+  {
+    "incident_id": "INC-7412235085",
+    "title": "Laptop hardware failure",
+    "status": "Closed",
+    "priority": "Medium",
+    "severity": "3 - Low",
+    "category": "Hardware",
+    "subcategory": "Workstation",
+    "description": "User Jane Doe reported her laptop screen is not turning on. Attempts to reset the display connection were unsuccessful.",
+    "impact": "User unable to work. Temporary loaner provided.",
+    "created_at": "2025-09-25T09:15:00Z",
+    "updated_at": "2025-09-25T13:00:00Z",
+    "closed_at": "2025-09-25T13:00:00Z",
+    "assigned_to": {
+      "user_id": "U-24680",
+      "name": "David Miller",
+      "team": "Field Services"
+    },
+    "reporter": {
+      "user_id": "U-11223",
+      "name": "Jane Doe",
+      "email": "jane.doe@example.com"
+    },
+    "closure_notes": "Replaced user's laptop with a new one. Data transferred and old device sent for repair.",
+    "related_assets": [
+      {
+        "asset_id": "AST-1357",
+        "name": "Jane Doe Laptop"
+      }
+    ],
+    "timeline": [
+      {
+        "timestamp": "2025-09-25T09:15:00Z",
+        "event": "New incident created by end-user via service portal.",
+        "user": "Jane Doe"
+      },
+      {
+        "timestamp": "2025-09-25T10:00:00Z",
+        "event": "David Miller dispatched to replace faulty hardware.",
+        "user": "David Miller"
+      },
+      {
+        "timestamp": "2025-09-25T13:00:00Z",
+        "event": "Incident closed. Resolution notes added.",
+        "user": "David Miller"
+      }
+    ]
+  },
+  {
+    "incident_id": "INC-7410854546556",
+    "title": "Laptop hardware failure",
+    "status": "Closed",
+    "priority": "Medium",
+    "severity": "3 - Low",
+    "category": "Hardware",
+    "subcategory": "Workstation",
+    "description": "User Jane Doe reported her laptop screen is not turning on. Attempts to reset the display connection were unsuccessful.",
+    "impact": "User unable to work. Temporary loaner provided.",
+    "created_at": "2025-09-25T09:15:00Z",
+    "updated_at": "2025-09-25T13:00:00Z",
+    "closed_at": "2025-09-25T13:00:00Z",
+    "assigned_to": {
+      "user_id": "U-24680",
+      "name": "David Miller",
+      "team": "Field Services"
+    },
+    "reporter": {
+      "user_id": "U-11223",
+      "name": "Jane Doe",
+      "email": "jane.doe@example.com"
+    },
+    "closure_notes": "Replaced user's laptop with a new one. Data transferred and old device sent for repair.",
+    "related_assets": [
+      {
+        "asset_id": "AST-1357",
+        "name": "Jane Doe Laptop"
+      }
+    ],
+    "timeline": [
+      {
+        "timestamp": "2025-09-25T09:15:00Z",
+        "event": "New incident created by end-user via service portal.",
+        "user": "Jane Doe"
+      },
+      {
+        "timestamp": "2025-09-25T10:00:00Z",
+        "event": "David Miller dispatched to replace faulty hardware.",
+        "user": "David Miller"
+      },
+      {
+        "timestamp": "2025-09-25T13:00:00Z",
+        "event": "Incident closed. Resolution notes added.",
+        "user": "David Miller"
+      }
+    ]
+  }
+]
