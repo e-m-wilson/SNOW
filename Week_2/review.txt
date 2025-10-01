@@ -1,0 +1,13 @@
+prop = short for 'properties'; it represents items that we pass down to a component;
+used to pass information down from a parent component to a child component; 
+props are unidirectional; props are immutable, meaning they cannot be changed; 
+props can be many different datatypes such as: numbers, strings, objects, arrays, etc.
+
+destructuring = newer feature from ES6; allows us to pull data from an object; 
+we can pull only what we need or what is required; 
+
+working with lists = we use the javascript map function; 
+keys are important because it allows React to identify the different items of the 
+same type, on the component. 
+
+state = 
