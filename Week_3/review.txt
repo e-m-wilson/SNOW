@@ -1,0 +1,50 @@
+what is servicenow?
+a cloud-based tool used to automate ITSM, ITOM, and CSM processes, it is considered a aPaaS; 
+considered as a PaaS or as a SaaS; it is has many low-code tools; customizable; 
+
+ITSM - IT service management; practices used to control flow of services; we usually use ITIL as a 
+framework to implement ITSM; 
+
+how do servicenow updates work? every 6 months; naming convention based on cities and contries and each release 
+goes down the alphabet 
+
+configuration vs customization = configurations=low-code tools; customization=adding new functionalities with code
+
+development platforms - servicenow studio, app engine studio, servicenow IDE, creator studio 
+	low-code, citezen-developer-focused tools= app engine studio, creator studio 
+	fully featured dev tools = servicenow studio, servicenow IDE 
+	
+what are the two most common ways that an end-user will use servicenow? 
+	next experience ui - UI tool to interact with servicenow instances; the new version of the UI, replaces UI16;
+						 used to interact with application menus/modules; an interface that provides access to the 
+						 filter navigator; 
+	workspace - a single location for end users with a specific job role to perform their job; 
+				example: service operations workspace - contains lists, forms, and more that aid in customer service/incident management 
+				
+how do I provide access to servicenow features to a user?
+by assigning roles 
+
+can roles contain other roles? 
+yes
+
+what is the best practice for assigning roles?
+add individuals to groups, then apply the roles to the groups 
+
+how can I configure list UI?
+we use List Layout to determine which fields appear on a list, and their order, and also create/manage our list views 
+
+what is a list view?
+can have more than one, and they control which fields display in the view; 
+
+how can I customize forms?
+	form builder - modern option for building forms, allows drag-and-drop; access to UI policies where we can conditionally render other fields
+	form designer - is a drag-and-drop form editor, much like form layout, but it is newer than form layout. It's still older than form builder. 
+	form layout - traditional way of building forms; no drag-and-drop; old way
+	
+what are filters?
+how do users personalize their lists?
+what are tags?
+what are form templates?
+how are choices managed in choice lists? 
+what can be a dependent field of a choice list? 
+
