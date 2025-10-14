@@ -1,0 +1,18 @@
+
+field attributes = describe certain behaviors or descriptors of a field 
+	examples: label, name, mandatory, read only, display 
+	
+core table = tables that already exist; table in the baseline implementation
+custom table = tables that we, system admins, create 
+
+table relationships: 1-N, n-N, database view, extensions 
+
+how do I make a 1-N relationship? 
+using a reference field 
+
+how do I make a n-N relationship?
+using the sys_m2m table to create the definition 
+
+what is a reference qualifier?
+filter the records available in a reference field, based on field criteria 
+
