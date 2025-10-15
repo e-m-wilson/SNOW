@@ -47,7 +47,7 @@
   
 ## Self-Service and Automation
 
-### Challenge 1 - Create a new knowledge base and asticle 
+### Challenge 1 - Create a new knowledge base and article 
 
 - Create a new knowledge base called 'Training Knowledge Base' 
 - Set ownership to 'Abel Tutor' 
