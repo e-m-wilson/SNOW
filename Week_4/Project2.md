@@ -70,3 +70,16 @@
 - Create ACls assigned to the roles:
   - Content Manager - read/write/create/delete on units and topics 
   - Content Contributer - read/write on units and topics 
+
+### Challenge 3 - Import Set 
+
+- In your own words, write 3-4 sentences explaining Import sets, transform maps, import set tables, etc. 
+
+### Challenge 4 - Explain the CSDM
+
+- In your own words, write a short essay on the CSDM. You should include: what it is, why its useful, and how it is structured. 2-3 paragraphs is fine. 
+
+### Challenge 5 - Explain the Security Center & Shared Responsibility Model
+
+- In your own words, write a short paragraph explaining the purpose of the Security Center and the Shared Responsibility Model. 
+
