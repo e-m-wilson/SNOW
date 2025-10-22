@@ -53,6 +53,12 @@
 - Set ownership to 'Abel Tutor' 
 - Create the first article 'How to create a quiz' 
 
+### Challenge 2 - Create a new Service Catalog
+
+- Create a new Service Catalog called 'HR Catalog'
+- Create a new category for it called 'Student Management' 
+- Create a record producer called 'New Student' that creates Student records 
+
 ## Database Management and Platform Security 
 
 ### Challenge 1 - Create a custom application and table 
