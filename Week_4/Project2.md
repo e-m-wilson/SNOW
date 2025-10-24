@@ -45,6 +45,20 @@
   - Category = Inquiry/Help
   - Short Description = 'Training Question'
   
+### Challenge 5 - Schedule a Data Visualization
+
+- Create a new date field on Delivery called 'Start Date'
+- Create a 'column' Visualization that displays:
+  - All upcoming deliveries in the next 30 days
+  - Records grouped by capability 
+  - Use the 'Start Date' field to display records NOT 'Created' 
+  - We should be able to see each record grouped by capability on the day the delivery begins
+- Schedule the Visualization to send to all Training Managers each week 
+
+### Challenge 6 - Custom Notification
+
+- Create a custom email notification that alerts Training Managers whenever a new Capability is created 
+  
 ## Self-Service and Automation
 
 ### Challenge 1 - Create a new knowledge base and article 
@@ -58,6 +72,11 @@
 - Create a new Service Catalog called 'HR Catalog'
 - Create a new category for it called 'Student Management' 
 - Create a record producer called 'New Student' that creates Student records 
+
+### Challenge 3 - Create a Flow
+
+- Create a Flow that is scheduled to run every day
+- The Flow should close resolved Incidents that have been resolved for 7 days
 
 ## Database Management and Platform Security 
 
