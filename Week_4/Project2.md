@@ -108,3 +108,28 @@
 
 - In your own words, write a short paragraph explaining the purpose of the Security Center and the Shared Responsibility Model. 
 
+## Data Migration & Integration
+
+### Challenge 1 - Update Set
+
+- All of the challenges in this section should be bundled into a new update set 
+- Ensure only changes from this section are a part of the update set 
+- After you are finished, complete the update set and make it availble for remote import 
+
+### Challenge 2 - UI Policy 
+
+- We need to make sure high priority incidents are routed to the correct team immediately
+- Ensure that the assignemnt group is mandatory when the priority is high 
+
+### Challenge 3 - Data Policy 
+
+- We need to ensure data integrity for our 'Student' records 
+- Create an email field on 'Student' if not already present 
+- Ensure that both the 'Name' and 'Email' fields are made mandatory both on client & server
+
+### Challenge 4 - UI Action 
+
+- Users should be able to quickly create delivery records from the capability list
+- We should be able to right-click on a single delivery in the list, and then select 'Create Related Delivery' to create a delivery record and automatically associate it with the capability 
+
+### Challenge 5 - 
