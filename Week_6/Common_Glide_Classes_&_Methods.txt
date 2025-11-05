@@ -1,0 +1,300 @@
+ServiceNow - Glide Classes and Methods Reference
+
+=====================================================================
+
+
+GlideRecord
+
+-----------
+
+Description: Server-side class for database operations (CRUD, queries) on tables.
+
+
+Common Methods:
+
+- new GlideRecord(tableName)
+
+- addActiveQuery()
+
+- addEncodedQuery(queryString)
+
+- addQuery(field, value)
+
+- addNotNullQuery(field)
+
+- addNullQuery(field)
+
+- addJoinQuery(relatedTable, originField, joinField)
+
+- query()
+
+- next()
+
+- get(field, value)
+
+- initialize()
+
+- insert()
+
+- update(reason?)
+
+- updateMultiple()
+
+- deleteRecord()
+
+- deleteMultiple()
+
+- getValue(fieldname)
+
+- getDisplayValue(fieldname?)
+
+- getTableName()
+
+- isValid()
+
+- isNewRecord()
+
+- canRead(), canWrite(), canCreate(), canDelete()
+
+- setValue(field, value)
+
+- setWorkflow(boolean)
+
+- orderBy(field), orderByDesc(field)
+
+- getRowCount()
+
+- getClassDisplayValue()
+
+
+GlideAggregate
+
+--------------
+
+Description: Extension of GlideRecord for aggregation queries (COUNT, SUM, MIN, MAX).
+
+
+Common Methods:
+
+- new GlideAggregate(tableName)
+
+- addAggregate(function, field)
+
+- addGroupBy(field)
+
+- query()
+
+- next()
+
+- getAggregate(function, field)
+
+- getValue(field)
+
+GlideElement
+
+------------
+
+Description: Represents a field/element in a record (server-side).
+
+
+Common Methods:
+
+- getValue()
+
+- getDisplayValue()
+
+- getLabel()
+
+- getED()
+
+- getRecordClassName()
+
+- isValid()
+
+
+GlideSystem (gs)
+
+----------------
+
+Description: Global server-side API for system tasks, logging, events, user info.
+
+
+Common Methods:
+
+- addInfoMessage(message)
+
+- addErrorMessage(message)
+
+- log(level, message)
+
+- getProperty(propertyName)
+
+- nowDateTime()
+
+- eventQueue(name, glideRecord, parm1, parm2)
+
+- getUserID()
+
+- getUserName()
+
+
+GlideDateTime
+
+-------------
+
+Description: Server-side API to handle dates and times.
+
+
+Common Methods:
+
+- new GlideDateTime([dateString])
+
+- add(glideTime)
+
+- subtract(glideDateTime)
+
+- getNumericValue()
+
+- getByFormat(formatString)
+
+- getTime()
+
+
+GlideAjax
+
+---------
+
+Description: Client-side API to call Script Includes asynchronously.
+
+
+Common Methods:
+
+- new GlideAjax(scriptIncludeName)
+
+- addParam(name, value)
+
+- getXML(callback)
+
+- getXMLWait()
+
+- getAnswer(callback)
+
+
+GlideForm (g_form)
+
+------------------
+
+Description: Client-side API for manipulating form fields and messages.
+
+
+Common Methods:
+
+- getValue(fieldName)
+
+- setValue(fieldName, value)
+
+- addInfoMessage(message)
+
+- addErrorMessage(message)
+
+- showFieldMsg(fieldName, message, type)
+
+- setMandatory(fieldName, boolean)
+
+- setReadOnly(fieldName, boolean)
+
+- setDisplay(fieldName, boolean)
+
+- isNewRecord()
+
+
+GlideUser (g_user)
+
+------------------
+
+Description: Client-side API for user information and roles.
+
+
+Common Methods:
+
+- hasRole(roleName)
+
+- hasRoleExactly(roleName)
+
+- getName()
+
+- getFirstName()
+
+- getLastName()
+
+- getEmail()
+
+
+GlideList2
+
+----------
+
+Description: Client-side API to manage list views and related lists.
+
+
+Common Methods:
+
+- addFilter(fieldQuery)
+
+- removeFilter(fieldQuery)
+
+- refresh()
+
+
+GlideMenu
+
+---------
+
+Description: Client-side API to manipulate context menus.
+
+
+Common Methods:
+
+- clearImage(menuItem)
+
+- addMenuItem(menuItem)
+
+- removeMenuItem(menuItem)
+
+
+GlideDialogWindow
+
+-----------------
+
+Description: Client-side API for creating and managing modal dialogs.
+
+
+Common Methods:
+
+- new GlideDialogWindow(page)
+
+- setTitle(title)
+
+- setSize(width, height)
+
+- adjustBodySize()
+
+- render()
+
+
+Script Includes
+
+---------------
+
+Description: Server-side reusable classes or methods, callable by other scripts or clients.
+
+
+Client-callable Script Include Methods:
+
+- this.getParameter(paramName)
+
+- getXML(callback)
+
+- getXMLWait()
+
+- getAnswer(callback)
