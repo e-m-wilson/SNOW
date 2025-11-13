@@ -1,0 +1,8 @@
+Part 1 - Web Services Intro
+https://www.youtube.com/watch?v=LbEugH4uOb4
+
+Part 2 - Outbound REST 
+https://www.youtube.com/watch?v=sZ8ZCgxTQFQ
+
+Part 3 - Outbound SOAP
+https://www.youtube.com/watch?v=xHKD8W6stHI
